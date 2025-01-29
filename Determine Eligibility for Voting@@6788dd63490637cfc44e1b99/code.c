@@ -2,6 +2,6 @@
 int main(){
     int age;
     scanf("%d",&age);
-    (age>=18)?("Eligible"):("Not Eligible");
+    (age>=18)?printf("Eligible"):printf("Not Eligible");
     return 0;
 }
