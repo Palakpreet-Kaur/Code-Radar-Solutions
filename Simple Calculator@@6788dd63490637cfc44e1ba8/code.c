@@ -4,14 +4,14 @@ int main(){
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     switch(ch){
-        case +:
+        case '+':
         printf("%d",a+b);
-        case -:
+        case '-':
         printf("%d",a-b);
-        case *:
+        case '*':
         printf("%d",a*b);
         break;
-        case /:
+        case '/':
         if(b!=0){
             printf("%d",a/b);}
         else{
