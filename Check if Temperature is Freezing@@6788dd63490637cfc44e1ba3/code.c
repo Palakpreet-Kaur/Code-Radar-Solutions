@@ -2,6 +2,6 @@
 int main(){
     int temp;
     scanf("%d",&temp);
-    (temp>=0)?printf("Above Freezing"):printf("freezing");
+    (temp>=0)?printf("Above Freezing"):printf("Freezing");
     return 0;
 }
