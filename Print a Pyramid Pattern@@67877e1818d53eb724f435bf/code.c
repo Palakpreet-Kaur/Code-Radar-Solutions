@@ -2,7 +2,7 @@
 void pyramid(int num){
     for(int i=0;i<num;i++){
         for(int space=1;space<=num-i;space++){
-            printf("  ");
+            printf(" ");
         }
         for(int j=0; j<= 2*i;j++){
             printf("* ");
