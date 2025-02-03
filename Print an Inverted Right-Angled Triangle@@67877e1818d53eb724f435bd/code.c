@@ -1,9 +1,10 @@
 #include<stdio.h>
 void invertedTriangle( int num){
-    for(i=0;i<num,i++){
-        for(j=num;j>0;j--){
+    for(int i=0;i<num,i++){
+        for(int j=num-1;j>0;j--){
             printf("*");
         }
+        printf("\n");
     }
 }
 int main(){
