@@ -1,7 +1,7 @@
 #include<stdio.h>
 void invertedTriangle( int num){
-    for(i=0;i<num,i++){
-        for(j=num;j>0;i--){
+    for(i=0;i<num,i++);{
+        for(j=num;j>0;i--);{
             printf("*");
         }
     }
