@@ -7,7 +7,7 @@ void mirroredTriangle(num){
         for(int j=0;j<num;j++){
             printf("*");
         }
-        printf("\n")
+        printf("\n");
     }
 }
 
