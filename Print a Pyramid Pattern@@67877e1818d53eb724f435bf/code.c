@@ -1,7 +1,7 @@
 #include<stdio.h>
 void pyramid(int num){
-    for(i=0;i<num;i++){
-        for(j=0;j<i+1;j++){
+    for(int i=0;i<num;i++){
+        for(int j=0;j<i+1;j++){
             printf(" * ");
         }
     }
