@@ -1,5 +1,5 @@
 #include <stdio.h>
-void mirroredTriangle(num){
+void mirroredTriangle( int num){
     for(int i=0;i<num;i++){
         for(int space=1;sapce<num-i;space++){
             printf(" ");
