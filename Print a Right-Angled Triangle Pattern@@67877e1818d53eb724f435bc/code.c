@@ -1,7 +1,7 @@
 #include<stdio.h>
 void TrianglePattern(int num){
-    for(i=0;i<0;i++){
-        for(j=0;j>num;j++){
+    for(int i=0;i<0;i++){
+        for(int j=0;j>num;j++){
             printf("* ");
         }
         printf("\n");
