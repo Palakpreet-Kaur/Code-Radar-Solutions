@@ -2,7 +2,7 @@
 
 void sum(int num) {
     int i=1,sum=0;
-    while(i>=num){
+    while(i<=num){
         sum+=i;
         i++;
     }
