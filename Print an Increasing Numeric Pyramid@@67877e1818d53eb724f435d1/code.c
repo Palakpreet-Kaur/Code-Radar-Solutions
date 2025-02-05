@@ -1,10 +1,9 @@
 #include <stdio.h>
 pyramid(int num){
-   int i,j,space;
-   for(i=0;i<num;i++){
-    for(space=1;space<i;space++){
+   for(int i=0;i<num;i++){
+    for(int space=1;space<i;space++){
         printf(" ");
-    }for(j=0;j<i;j++){
+    }for(int j=0;j<2*i;j++){
         printf("%d",j);
     }printf("\n");
    } 
