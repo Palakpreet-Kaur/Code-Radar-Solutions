@@ -2,6 +2,6 @@
 int main(){
     int a;
     scanf("%d",&a);
-    ((a%400==0)&&(a%100!=0))?printf("Leap Year"):printf("Not a Leap Year");
+    ((a%4==0)&&(a%100!=0))?printf("Leap Year"):printf("Not a Leap Year");
     return 0;
 }
