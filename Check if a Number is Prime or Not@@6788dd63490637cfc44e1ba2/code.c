@@ -3,6 +3,7 @@ void isprime(int num){
     for(int i=2;i*i<num;i++){
         if(num%i==0){
             printf("Not Prime");
+            break;
         }
         else{
             printf("Prime");
