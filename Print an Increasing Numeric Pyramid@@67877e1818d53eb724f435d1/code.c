@@ -1,5 +1,5 @@
 #include <stdio.h>
-pyramid(int num){
+void pyramid(int num){
    for(int i=0;i<num;i++){
     for(int space=1;space<i;space++){
         printf(" ");
