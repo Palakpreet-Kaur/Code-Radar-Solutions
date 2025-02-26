@@ -8,10 +8,9 @@ void main(){
         }for(k=1;k<=i;k++){
             a=1;
             b=0;
-            printf("%d ",a+b);
-             b=a;
+            printf("%d",a+b);
             a=a+b;
-           
+            b=a;
         }printf("\n");
     }
 }
