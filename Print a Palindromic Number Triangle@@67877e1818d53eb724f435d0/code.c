@@ -6,7 +6,7 @@ void main(){
         for(j=num-i;j>=0;j--){
             printf(" ");
         }for(k=1;k<=i;k++){
-            a=0+k;
+            a=a+k;
             printf("%d ",a);
         }printf("\n");
     }
