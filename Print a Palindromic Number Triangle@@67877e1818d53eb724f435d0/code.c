@@ -8,6 +8,6 @@ void main(){
         }for(k=1;k<=i;k++){
             a=0+k;
             printf("%d ",a);
-        }
+        }printf("\n");
     }
 }
