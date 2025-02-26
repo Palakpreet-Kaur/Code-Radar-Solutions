@@ -1,17 +1,11 @@
-#include <stdio.h>
-void pyramid(int num){
-   for(int i=0;i<num;i++){
-    for(int space=1;space<i;space++){
-        printf(" ");
-    }for(int j=0;j<2*i;j++){
-        printf("%d",j);
-    }printf("\n");
-   } 
-}
-
-int main() {
-    int num;
-    scanf("%d",&num);
-    pyramid(num);
-    return 0;
+#include<stdio.h>
+void main(){
+    int i,j,num,k;
+    for(i=1;i<=num;i++){
+        for(j=num-i;j>0;j--){
+            printf(" ");
+        }for(k=1;k<=num;k++){
+            printf("%d ",k);
+        }printf("\n");
+    }
 }
