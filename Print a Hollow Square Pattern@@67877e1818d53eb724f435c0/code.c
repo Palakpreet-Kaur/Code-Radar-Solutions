@@ -6,7 +6,7 @@ void main(){
         for(j=1;j<=num;j++){
             if(j==1 || j==num){
             printf("*");}
-            else if((j!=1 || j!=num)){
+            else if((j!=1 || j!=num) && (i!=1 || i!=num) ){
                 printf("#");
             }
         }printf("\n");
