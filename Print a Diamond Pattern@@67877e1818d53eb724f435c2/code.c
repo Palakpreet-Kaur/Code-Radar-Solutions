@@ -18,6 +18,7 @@ void main(){
         }
         for(w=num;w>=1;w--){
             printf("*");
+            num--;
         }printf("\n");
     }
 }
