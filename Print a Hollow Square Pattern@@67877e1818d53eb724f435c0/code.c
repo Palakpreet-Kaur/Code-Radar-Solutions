@@ -6,8 +6,8 @@ void main(){
         for(j=1;j<=num;j++){
             if(j==1 || j==num){
             printf("*");}
-            else{
-                printf(" ");
+            else if((j!=1 || j!=num)){
+                printf("#");
             }
         }printf("\n");
     }
