@@ -4,7 +4,11 @@ void main(){
     scanf("%d",&num);
     for(i=1;i<=num;i++){
         for(j=1;j<=num;j++){
-            printf("*");
+            if(j==1 || j==num){
+            printf("*");}
+            else{
+                printf(" ");
+            }
         }printf("\n");
     }
 }
