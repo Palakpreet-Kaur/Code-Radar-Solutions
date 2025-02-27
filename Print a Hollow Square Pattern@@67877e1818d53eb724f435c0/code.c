@@ -4,12 +4,9 @@ void main(){
     scanf("%d",&num);
     for(i=1;i<=num;i++){
         for(j=1;j<=num;j++){
-            if(j==1 || j==num){
+            if(j==1 || j==num || i==1 || i==num){
             printf("*");}
-            else if(i==1 || i==num){
-                printf("*");
-            }
-            else if((j!=1 || j!=num) && (i!=1 || i!=num) ){
+            else{
                 printf(" ");
             }
         }printf("\n");
