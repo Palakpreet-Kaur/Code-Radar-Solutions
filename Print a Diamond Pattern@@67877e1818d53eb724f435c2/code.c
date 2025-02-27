@@ -1,21 +1,13 @@
-#include <stdio.h>
-
-void diamond(int num){
-    for(int i=0;i<num;i++){
-        for(int space=1;space<num-i;space++){
-            printf(" ");{
-                for(int j=0;j<2*i;j++){
-                    printf("*");
-                }
-                printf("\n");
-            }
-        }
-    }
-}
-
-int main() {
-    int num;
+#include<stdio.h>
+void main(){
+    int num,i,j,k;
     scanf("%d",&num);
-    diamond(num);
-    return 0;
+    for(i=1;i<=num;i++){
+        for(j=num-i;j>=1;j--){
+            printf(" ");
+        }
+        for(k=1;k<=i;k++){
+            printf("*");
+        }printf("\n");
+    }
 }
