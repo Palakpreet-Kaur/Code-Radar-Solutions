@@ -18,7 +18,7 @@ void main(){
         }
         for(w=num;w>=1;w--){
             printf("*");
-            //num--;
+            num--;
         }for(int x=u;x>=1;x--){
             printf("*");
         }printf("\n");
