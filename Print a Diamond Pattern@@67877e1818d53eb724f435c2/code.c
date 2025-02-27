@@ -19,7 +19,7 @@ void main(){
         for(w=num-1;w>=u;w--){
             printf("*");
             //num--;
-        }for(int x=num;x>=1;x--){
+        }for(int x=num-1;x>=u;x--){
             printf("#");
         }printf("\n");
     }
