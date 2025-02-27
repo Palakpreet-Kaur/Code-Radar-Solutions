@@ -4,6 +4,7 @@ void main(){
     for(i=1;i<=num;i++){
         for(j=num;j>=i;j--){
             printf("%d",j);
+            num--;
         }printf("\n");
     }
 }
