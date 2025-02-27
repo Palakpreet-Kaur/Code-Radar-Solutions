@@ -20,7 +20,7 @@ void main(){
             printf("*");
             //num--;
         }for(int x=num-1;x>=u;x--){
-            printf("#");
+            printf("*");
         }printf("\n");
     }
 }
