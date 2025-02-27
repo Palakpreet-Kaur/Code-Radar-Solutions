@@ -7,10 +7,10 @@ void main(){
             if(j==1 || j==num){
             printf("*");}
             else if(i==1 || i==num){
-                printf("@");
+                printf("*");
             }
             else if((j!=1 || j!=num) && (i!=1 || i!=num) ){
-                printf("#");
+                printf(" ");
             }
         }printf("\n");
     }
