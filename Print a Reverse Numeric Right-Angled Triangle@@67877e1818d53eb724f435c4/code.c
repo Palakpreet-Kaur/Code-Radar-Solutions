@@ -2,9 +2,9 @@
 void main(){
     int num,i,j,k;
     for(i=1;i<=num;i++){
-        for(j=num;j>=i;j--){
+        for(j=i;j>=num;j--){
             printf("%d",j);
-            num--;
+            
         }printf("\n");
     }
 }
