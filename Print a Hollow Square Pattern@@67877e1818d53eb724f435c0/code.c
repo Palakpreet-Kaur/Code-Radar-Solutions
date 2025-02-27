@@ -6,9 +6,9 @@ void main(){
         for(j=1;j<=num;j++){
             if(j==1 || j==num){
             printf("*");}
-            else if(i==1 && j!=1 && j!=num){
+            /*else if(){
                 printf("*");
-            }
+            }*/
         }printf("\n");
     }
 }
