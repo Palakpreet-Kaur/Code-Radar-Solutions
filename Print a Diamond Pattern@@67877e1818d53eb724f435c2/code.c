@@ -14,7 +14,10 @@ void main(){
     }
     for(u=1;u<num;u++){
         for(v=1;v<=u;v++){
-            printf("#");
+            printf(" ");
+        }
+        for(w=u;w>=1;w--){
+            printf("*");
         }printf("\n");
     }
 }
