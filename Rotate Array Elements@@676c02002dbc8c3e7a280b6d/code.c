@@ -11,9 +11,9 @@ void rotateArray(int arr[],int n,int k){
     k=k%n;
     if(k==0)
     return;
-    reverse(arr[],0,n-1);
-    reverse(arr[],0,k-1);
-    reverse(arr[],k,n-1);
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
 }
 void printArray(int arr[],int n){
     for(i=0;i<n;i++){
