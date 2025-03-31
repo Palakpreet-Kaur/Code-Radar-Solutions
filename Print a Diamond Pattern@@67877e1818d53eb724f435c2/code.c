@@ -23,4 +23,4 @@ void main(){
             printf("*");
         }printf("\n");
     }
-}2
+}
