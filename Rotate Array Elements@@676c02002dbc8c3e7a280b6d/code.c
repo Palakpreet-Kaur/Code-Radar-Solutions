@@ -16,7 +16,7 @@ void rotateArray(int arr[],int n,int k){
     reverse(arr,k,n-1);
 }
 void printArray(int arr[],int n){
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
 
@@ -25,7 +25,7 @@ int main(){
     int n,k;
     scanf("%d",&n);
     int arr[];
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
