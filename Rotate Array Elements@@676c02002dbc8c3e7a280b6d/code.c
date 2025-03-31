@@ -1,5 +1,5 @@
 #include<stdio.h>
-void reverse(int arr,int start,int end){
+void reverse(int arr[],int start,int end){
     while(start < end){
         int temp=arr[start];
         arr[start]=arr[end];
@@ -7,7 +7,7 @@ void reverse(int arr,int start,int end){
         start++;
         end--;
     }
-void rotateArray(int arr,int n,int k){
+void rotateArray(int arr[],int n,int k){
     k=k%n;
     if(k==0)
     return;
@@ -15,7 +15,7 @@ void rotateArray(int arr,int n,int k){
     reverse(arr,0,k-1);
     reverse(arr,k,n-1);
 }
-void printArray(int arr,int n){
+void printArray(int arr[],int n){
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
