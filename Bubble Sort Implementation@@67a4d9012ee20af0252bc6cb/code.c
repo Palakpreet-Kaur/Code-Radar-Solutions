@@ -24,6 +24,6 @@ int main(){
     for(int i=0;i<n-1;i++){
         scanf("%d",&arr[i]);
     }
-    sort(arr[],n);
-    printarr(arr[],n);
+    sort(arr,n);
+    printarr(arr,n);
 }
